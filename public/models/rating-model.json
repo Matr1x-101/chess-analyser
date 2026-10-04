@@ -1,0 +1,65 @@
+{
+  "featureKeys": [
+    "acpl",
+    "blunderRate",
+    "mistakeRate",
+    "inaccuracyRate",
+    "bestMoveRate",
+    "hangingPieceRate",
+    "missedTacticRate",
+    "positionalErrorRate",
+    "lossVolatility",
+    "openingAcpl",
+    "restAcpl"
+  ],
+  "means": {
+    "acpl": 62.65962853773338,
+    "blunderRate": 0.14767540332103754,
+    "mistakeRate": 0.1259625857156873,
+    "inaccuracyRate": 0.11813740162908547,
+    "bestMoveRate": 0.5175943643521461,
+    "hangingPieceRate": 0.02207114570509222,
+    "missedTacticRate": 0.03147299355330383,
+    "positionalErrorRate": 0.220001751400516,
+    "lossVolatility": 112.89065953810675,
+    "openingAcpl": 30.788644444444454,
+    "restAcpl": 79.05498413681723
+  },
+  "stds": {
+    "acpl": 37.64412368149948,
+    "blunderRate": 0.09782563392164213,
+    "mistakeRate": 0.07023291990788794,
+    "inaccuracyRate": 0.06314574948444455,
+    "bestMoveRate": 0.12226456656821671,
+    "hangingPieceRate": 0.031015878826447588,
+    "missedTacticRate": 0.03619541659283703,
+    "positionalErrorRate": 0.10262249759911307,
+    "lossVolatility": 76.00453140693891,
+    "openingAcpl": 24.091120697955446,
+    "restAcpl": 59.43843821646318
+  },
+  "weights": {
+    "acpl": -146.5746794399981,
+    "blunderRate": -4.097430038949764,
+    "mistakeRate": -50.356959986926356,
+    "inaccuracyRate": -10.29668402207187,
+    "bestMoveRate": -16.525582154875565,
+    "hangingPieceRate": -58.48904322140488,
+    "missedTacticRate": -3.567480367648498,
+    "positionalErrorRate": -19.433696898163348,
+    "lossVolatility": 90.58328784060393,
+    "openingAcpl": -58.758095524851875,
+    "restAcpl": -20.398494735725144
+  },
+  "intercept": 1604.3379804572928,
+  "metadata": {
+    "trainedAt": "2026-08-30T13:11:17.987Z",
+    "sourceDataset": "https://database.lichess.org (rated blitz/rapid/classical games)",
+    "ridge": 1,
+    "sampleSize": 500,
+    "trainRows": 400,
+    "valRows": 100,
+    "valMAE": 250.2808552246766,
+    "valR2": 0.1539812410515391
+  }
+}
